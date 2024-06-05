@@ -1,0 +1,37 @@
+{"coord":
+    {"lon":-73.0994,
+        "lat":6.1383},
+        "weather":[{
+            "id":804,
+            "main":"Clouds",
+            "description":"overcast clouds",
+            "icon":"04d"
+            }],
+        "base":"stations",
+        "main":{
+            "temp":64.72,
+            "feels_like":64.85,
+            "temp_min":64.72,
+            "temp_max":64.72,
+            "pressure":1016,
+            "humidity":84,
+            "sea_level":1016,
+            "grnd_level":817
+        },
+        "visibility":10000,
+        "wind":{
+            "speed":1.01,
+            "deg":166,
+            "gust":2.95},
+        "clouds":{
+            "all":100
+        },
+        "dt":1652360007,
+        "sys":{
+            "country":"CO",
+            "sunrise":1652351832,
+            "sunset":1652396425},
+        "timezone":-18000,
+        "id":3685840,
+        "name":"Encino",
+        "cod":200}

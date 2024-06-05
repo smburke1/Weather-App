@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pic1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 170%
+}
+
+.container {
+    background: linear-gradient(to left,rgb(112, 150, 231), rgb(13, 2, 61));
+    color: #fff;
+    width: 100%;
+    max-width: 500px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 30px;
+    opacity: .9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    margin: .5em;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+button:hover {
+    background:#aaa;
+    opacity: 1;
+}
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 1em 1em;
+    border-radius: 24px;
+    background-color: #fff;
+    margin-right: 10px;
+    width: 100%;
+}
+#city, #temp, #humidity, #wind{
+    padding: 5px;
+}
+#city, #temp {
+    font-size: 50px;
+}
+.icon-description{
+    display: flex;
+    align-items: center;
+}
+
+#description {
+    text-transform: capitalize;
+    margin-left: 10px;
+}
