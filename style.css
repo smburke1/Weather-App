@@ -23,7 +23,9 @@ body{
     margin: 1em;
     padding: 2em;
     border-radius: 30px;
-    opacity: .95;
+    border-style: solid;
+    border-color: #fff;
+    opacity: .99;
 }
 
 h1 {
