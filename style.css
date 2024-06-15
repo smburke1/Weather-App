@@ -24,8 +24,8 @@ body{
     padding: 2em;
     border-radius: 30px;
     border-style: solid;
-    border-color: #fff;
-    opacity: .99;
+    border-color: rgb(58, 127, 255);
+    opacity: .98;
 }
 
 h1 {
